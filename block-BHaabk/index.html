@@ -1,0 +1,110 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex">
+          <a href="">Logo</a>
+          <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <article class="flex-1">
+          <div class="text">
+            <h1 class="header-txt">Hello World</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              eaque, provident, nostrum distinctio quis suscipit aliquid quam
+              quibusdam nobis, reprehenderit earum neque culpa. In explicabo
+              doloremque suscipit beatae nulla quos! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nihil qui quia dolores ex. Iure quae
+              quis alias repudiandae quibusdam sed tempore voluptas! Consectetur
+              vel unde iure ab, exercitationem in sed. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Placeat dignissimos labore,
+              provident quisquam sit sed ipsa. Odio nisi quas dolorem, earum
+              exercitationem molestiae quam temporibus labore fuga, eveniet
+              magnam dolorum?
+            </p>
+          </div>
+          <img
+            src="https://images.pexels.com/photos/208321/pexels-photo-208321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="pic01"
+          />
+        </article>
+      </div>
+    </main>
+    <section>
+      <div class="container">
+        <div class="gallery-1">
+          <img
+            src="https://images.pexels.com/photos/693521/pexels-photo-693521.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+          <img
+            src="https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+          <img
+            src="https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+        </div>
+        <div class="gallery-1">
+          <img
+            src="https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+          <img
+            src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+          <img
+            src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="flex">
+          <a href="#">&copy;AltCampus</a>
+          <nav class="nav">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
