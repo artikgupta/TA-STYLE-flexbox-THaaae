@@ -1,8 +1,74 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
+<!--
+1. Create a simple page having a header, main content, and a footer.
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+2. Inside the header keep the brand name to the left and all the navigation to the right.
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex">
+          <a href=""
+            ><img
+              src="https://launchpad.altcampus.school/images/altcampus-logo.svg"
+              alt="logo"
+          /></a>
+          <nav class="nav">
+            <a class="nav-links" href="#">Home</a>
+            <a class="nav-links link" href="#">Gallery</a>
+            <a class="nav-links" href="#">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="heading">Gallery</h1>
+      </div>
+    </main>
+    <section>
+      <div class="container">
+        <div class="gallery-1">
+          <img src="assets/01.png" alt="img01" />
+          <img src="assets/02.png" alt="img02" />
+          <img src="assets/03.png" alt="img03" />
+        </div>
+        <div class="gallery-1">
+          <img src="assets/04.png" alt="img04" />
+          <img src="assets/05.png" alt="img05" />
+          <img src="assets/06.png" alt="img06" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="flex-1">
+          <a href="#">&copy;AltCampus</a>
+          <nav class="navbar">
+            <a class="icons" href="#"><i class="fa fa-facebook-square"></i></a>
+            <a class="icons" href="#"><i class="fa fa-twitter-square"></i></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
