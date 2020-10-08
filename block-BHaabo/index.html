@@ -1,0 +1,132 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex-nav">
+          <a href=""
+            ><img
+              src="https://launchpad.altcampus.school/images/altcampus-logo.svg"
+              alt="logo"
+          /></a>
+          <nav class="nav">
+            <a class="nav-links link" href="#"
+              ><img src="assets/icons/bell.svg" alt="" />
+            </a>
+            <a class="nav-links" href="#">Sarah Jone</a>
+            <a class="nav-links" href="#"
+              ><img src="assets/icons/user.svg" alt="user"
+            /></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="column">
+        <aside>
+          <div class="col">
+            <div class="row-1">
+              <!-- Dashboard -->
+
+              <div class=" flex">
+                <a href="#"
+                  ><img src="assets/icons/dashboard.svg" alt="dashboard"
+                /></a>
+                <p class="text">Dashboard</p>
+              </div>
+              <!-- article -->
+              <div class="article flex">
+                <a href="#"
+                  ><img src="assets/icons/article.svg" alt="article"
+                /></a>
+                <p class="text">Article</p>
+              </div>
+
+              <!--analytics  -->
+
+              <div class="analytics flex">
+                <a href="#"
+                  ><img src="assets/icons/analytics.svg" alt="analytics"
+                /></a>
+                <p class="text">Analytics</p>
+              </div>
+
+              <!--inbox  -->
+
+              <div class="inbox flex">
+                <a href="#"><img src="assets/icons/inbox.svg" alt="inbox"/></a>
+                <p class="text">Inbox</p>
+              </div>
+
+              <!--settings  -->
+
+              <div class="setting flex">
+                <a href="#"
+                  ><img src="assets/icons/setting.svg" alt="setting"
+                /></a>
+                <p class="text">Settings</p>
+              </div>
+            </div>
+            <!--logout  -->
+
+            <div class="row-2 flex logout">
+              <a href="#"
+                ><img src="assets/icons/log-out.svg" alt="log-out"
+              /></a>
+              <p class="text  ">Logout</p>
+            </div>
+          </div>
+        </aside>
+        <!-- article -->
+        <section>
+          <article class="wrapper column">
+            <div class="col-3">
+              <img class="img" src="assets/01.png" alt="img01" />
+              <h2>Why we are doing AltCampus?</h2>
+              <p>
+                AltCampus is an alternative to college that you wish existed.
+                Currently, we are offering an in-house, 6-month long program to
+                train people in qualty software development, where they don't
+                have to pay anything until they are hired. We live in the world
+                of digital skills. These skills are always evolving and so is
+                their demand. Students/Professionals who are not responsive to
+                the changes in industry demands, in terms of skills, will have a
+                hard time surviving, well at least flourishing.
+              </p>
+              <button>Read More</button>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="flex-1">
+          <a href="#">&copy;AltCampus</a>
+          <nav class="navbar">
+            <a class="icons" href="#"><i class="fa fa-facebook-square"></i></a>
+            <a class="icons" href="#"><i class="fa fa-twitter-square"></i></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
