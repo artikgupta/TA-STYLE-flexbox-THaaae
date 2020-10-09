@@ -189,32 +189,23 @@ i {
   color: white;
 }
 
-.border {
-  border-right: 1px solid #b4a2bc;
-  width: 100px;
-  height: 180px;
-  margin-right: 40px;
-}
-.border-3 {
-  border-right: 1px solid #b4a2bc;
-  width: 100px;
-  height: 450px;
-  margin-right: 10px;
-}
 .col-2 {
+  border-left: 2px solid rgb(105, 104, 104);
   width: 50%;
-  padding: 10px;
+  padding-left: 40px;
+  padding-top: 10px;
   font-size: 25px;
   color: #b4a2bc;
 }
 
 .btn {
   padding: 15px;
-  margin-top: 30px;
+  margin: 30px;
   width: 160px;
   border: none;
   border-radius: 50px;
   color: white;
+  background: none;
   font-weight: bold;
 }
 
@@ -228,26 +219,27 @@ i {
   color: #666;
 }
 .para {
-  font-size: 20px;
+  font-size: 18px;
   color: #777;
 }
 
 .cols {
   display: flex;
-  margin: 20px;
+  margin: 40px 0;
 }
 .col-3 {
   width: 50%;
 }
 .col-4 {
   width: 50%;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
 }
 .wrap {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 .text-box {
   display: flex;
-  margin-left: 70px;
+  margin-left: 30px;
   margin-bottom: 26px;
 }
 .text {
@@ -259,7 +251,6 @@ i {
 .btn-2 {
   color: gray;
   border: 2px solid gray;
-  background-color: white;
   margin: 25px 0;
 }
 .colmn {
@@ -293,13 +284,17 @@ i {
   justify-content: center;
   align-items: center;
 }
+
 .button {
   width: 300px;
   padding: 20px;
   border-radius: 50px;
   border: none;
   border: 2px solid gray;
-  background-color: white;
+  background: none;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: bold;
 }
 
 .coll {
@@ -342,6 +337,12 @@ textarea {
   margin-bottom: 30px;
 }
 
+.border-3 {
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 450px;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -349,5 +350,6 @@ footer {
   height: 200px;
 }
 .footer {
+  color: #666;
   margin: 0 auto;
 }
